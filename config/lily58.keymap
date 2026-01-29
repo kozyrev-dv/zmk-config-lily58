@@ -99,10 +99,10 @@
             //                     |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans       &trans     &trans     &trans    &trans     &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans       &trans     &trans     &trans    &trans     &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans       &kp LEFT   &kp DOWN   &kp UP    &kp RIGHT  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp KP_PLUS  &kp MINUS  &kp EQUAL  &kp LBKT  &kp RBKT   &kp BSLH
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans       &trans     &trans        &trans           &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans       &trans     &kp UP_ARROW  &trans           &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans       &kp LEFT   &kp DOWN      &kp RIGHT_ARROW  &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp KP_PLUS  &kp MINUS  &kp EQUAL     &kp LBKT         &kp RBKT  &kp BSLH
                         &trans  &trans  &trans  &trans    &trans  &trans       &trans     &trans
             >;
 
